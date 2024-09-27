@@ -83,3 +83,41 @@ footer {
     top: 0;
     left: 0;
 }
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack the nav items vertically */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for mobile */
+    }
+
+    h2 {
+        font-size: 24px; /* Adjust heading size */
+    }
+
+    p, li {
+        font-size: 16px; /* Adjust paragraph and list font size */
+    }
+
+    footer {
+        padding: 10px; /* Increase footer padding for better touchability */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px; /* Further reduce font size for smaller screens */
+    }
+
+    nav ul li a {
+        font-size: 14px; /* Adjust nav link font size */
+    }
+
+    .event-card {
+        padding: 15px; /* Reduce padding in event cards */
+    }
+}
